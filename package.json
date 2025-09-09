@@ -1,0 +1,32 @@
+{
+  "name": "immich-date-fixer",
+  "version": "1.0.0",
+  "description": "Uses Immich API to put photos back on the correct date",
+  "main": "update-date.js",
+  "scripts": {
+    "start": "npx tsc && node dist/main.js",
+    "build": "npx tsc",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bram2202/immich-date-fixer.git"
+  },
+  "author": "Bram van Deventer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bram2202/immich-date-fixer/issues"
+  },
+  "homepage": "https://github.com/bram2202/immich-date-fixer#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.19.5",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2"
+  }
+}
